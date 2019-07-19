@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Esta pagina sirve para sacar tu promedio</h1>
+<script>
+        
+        Primernombre=prompt('Ingrese Primer Nombre:','')
+        PrimerApellido=prompt('Ingrese Primer Apellido:','')
+        nota1=parseInt(prompt('Ingrese su nota #1:',''))
+        nota2=parseInt(prompt('Ingrese su nota #2:',''))
+        nota3=parseInt(prompt('Ingrese su nota #3:',''))
+        notaSuma=  (nota1 + nota2 + nota3)
+        notaFinal =  ( notaSuma/3)
+
+        document.write('<h1>')
+        document.write('<center>')
+        if (notaFinal>=3)
+        {
+        document.write(Primernombre + " " + PrimerApellido + ' ha Aprobado este Curso con una Nota de: '+ notaFinal)
+        }
+        else {
+        document.write(Primernombre + " " + PrimerApellido+ ' No ha Aprobado este Curso Su definitiva es: '+ notaFinal)
+        
+        }
+
+
+
+</SCript>
+
+    
+</body>
+</html>
